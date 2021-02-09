@@ -1,0 +1,11 @@
+.welcome-img {
+    width: 178px;
+    height: 178px;
+    margin-bottom: 100px;
+}
+
+.welcome-text {
+    margin-bottom: 100px;
+    padding: 0 50px;
+    text-align: center;
+}

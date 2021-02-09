@@ -1,0 +1,26 @@
+{
+    "Drinks": [
+        "Cups of coffee",
+        "Glasses of water",
+        "Minerals waters",
+        "Beer",
+        "Barley",
+        "Wine"
+    ],
+    "Food": [
+        "Hot-dogs",
+        "Cupcakes eaten",
+        "Chicken",
+        "Baked goods",
+        "Eggs",
+        "Legumes"
+    ],
+    "Misc": [
+        "Times sneezed",
+        "Naps",
+        "Day dreaming",
+        "A breakfast bar",
+        "Letter carriers",
+        "Naps"
+    ]
+}

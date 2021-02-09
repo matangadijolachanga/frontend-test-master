@@ -1,0 +1,8 @@
+.btn-counter,
+.btn-counter:focus  { 
+    background-color: #fff;
+    border: none;
+    outline: none;
+    line-height: 24px;
+    height: 24px;
+}

@@ -1,0 +1,48 @@
+{
+  "name": "cornershop-frontend-test",
+  "version": "1.0.0",
+  "description": "Frontend test for cornershop app",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"react-scripts start\" \"node server/index.js\"",
+    "build": "react-scripts build",
+    "test": "react-scripts test"
+  },
+  "author": "Cornershop",
+  "license": "ISC",
+  "dependencies": {
+    "antd": "^4.12.2",
+    "axios": "^0.21.1",
+    "body-parser": "^1.16.1",
+    "concurrently": "^5.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.14.1",
+    "js-search-array": "^1.0.1",
+    "lodash": "^4.17.4",
+    "morgan": "^1.8.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-elastic-carousel": "^0.11.1",
+    "react-grid": "^4.0.4",
+    "react-icons": "^4.1.0",
+    "react-query": "^3.8.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^4.0.1",
+    "shortid": "^2.2.16",
+    "styled-components": "^5.2.1",
+    "typeface-nunito": "^1.1.13"
+  },
+  "proxy": "http://localhost:3001",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

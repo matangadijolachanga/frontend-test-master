@@ -1,0 +1,1 @@
+export const windowReload = () => window.location.reload()

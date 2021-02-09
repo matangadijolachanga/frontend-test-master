@@ -1,0 +1,69 @@
+.loading {
+    width: 114px;
+    height: 114px;
+    position: relative;
+    margin: 160px auto 0 auto;
+}
+
+.bounce {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #FF9500;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+  
+.bounce1 {
+    -webkit-animation: move-bounce1 2.0s infinite ease-in-out;
+    animation: move-bounce1 2.0s infinite ease-in-out;
+}
+  
+.bounce2 {
+    opacity: 0.1;
+    -webkit-animation: move-bounce2 2.0s infinite ease-in-out;
+    animation: move-bounce2 2.0s infinite ease-in-out;
+}
+  
+
+.bounce3 {
+    opacity: 0.1;
+    -webkit-animation: move-bounce3 2.0s infinite ease-in-out;
+    animation: move-bounce3 2.0s infinite ease-in-out;
+    -webkit-animation-delay: -1.0s;
+    animation-delay: -1.0s;
+}
+
+@keyframes move-bounce1 {
+    0%, 100% { 
+        transform: scale(0.3);
+        -webkit-transform: scale(0.3);
+    } 
+    50% { 
+        transform: scale(0.4);
+        -webkit-transform: scale(0.4);
+    }
+}
+  
+@keyframes move-bounce2 {
+    0%, 100% { 
+        transform: scale(0.5);
+        -webkit-transform: scale(0.5);
+    } 
+    50% { 
+        transform: scale(0.6);
+        -webkit-transform: scale(0.6);
+    }
+}
+
+@keyframes move-bounce3 {
+    0%, 100% { 
+        transform: scale(0.8);
+        -webkit-transform: scale(0.8);
+    } 
+    50% { 
+        transform: scale(1.0);
+        -webkit-transform: scale(1.0);
+    }
+}

@@ -1,0 +1,12 @@
+.rec.rec-pagination {
+    display: none;
+}
+
+.rec.rec-item-wrapper {
+    width: auto !important;
+    margin-right: 10px !important;
+}
+
+.rec.rec-slider-container {
+    margin: 0 !important;
+}
